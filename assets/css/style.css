@@ -212,30 +212,28 @@ footer {
 @media screen and (max-width: 980px) {
     .body { width:67%; }
     .body { width:30%; margin-left:3%;}  
+    img { max-width: 100%; }
 }
-img { max-width: 100%; }
+
 
 
 @media screen and (max-width: 768px) {
     body { width:100%; }
     body { width:100%; margin:0; border:none; }
     .row {width: 650px;}
-    .container {width: 650px;}
-}
-img { 
-    max-width: 100%; 
-    justify-content: center;
-}
-
-section {
-    max-width: 100%;
-    justify-content: flex-end;
+    .container {width: 650px; margin-right: 50px;}
+    #cat1, #cat2, #cat3, #cat4, #cat5 {width: 70%}
+    #catpic1, #catpic2, #catpic3, #catpic4, #catpic5 {width: 70%}
+    img { max-width: 100%; justify-content: center;}
+    section {max-width: 100%; justify-content: flex-end;}
+    
 }
 
 @media only screen and (max-width: 640px) {
-    body {
-        width: 540px;
-    }
+    body {width: 540px;}
     .row {width: 500px;}
-    .container {width: 650px;}
+    .row {width: 500px;}
+    .container {width: 500px; margin-right: 50px;}
+    #cat1, #cat2, #cat3, #cat4, #cat5 {width: 70%}
+    #catpic1, #catpic2, #catpic3, #catpic4, #catpic5 {width: 70%}
 }
